@@ -99,3 +99,15 @@ bundle exec rails db:create
 ```bash
 curl https://cli-assets.heroku.com/install.sh | sh
 ```
+
++ Creating alias examples
+```bash
+cd
+nano .bashrc
+alias cdrive='cd /mnt/c'
+alias be='bundle exec'
+
+# Ctrl + X to save, then Y for yes, then hit Enter
+
+source ~/.bashrc
+```
